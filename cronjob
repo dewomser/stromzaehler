@@ -1,0 +1,1 @@
+cd ./da/wos/hinsoll/ ; wget -N http://untergang.homelinux.net:81/ -O leistung.inc ; date +'%H:%M Uhr am %d.%m.%Y' >leistung-datum.inc 

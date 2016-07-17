@@ -10,5 +10,5 @@ besteht aus 3 Teilen:
 3.PHP-Script  Datenbankverwaltung und visualisierung
 
 
+http://bis18092014.untergang.de/index0a73.html
 
-http://bis18092014.untergang.de/index.php?option=com_content&task=view&id=374&Itemid=2

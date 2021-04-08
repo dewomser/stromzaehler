@@ -1,10 +1,10 @@
-name: PythonLinting
+name: Python Linting
 
-on: [push]
+on: push
 
 jobs:
   styles:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     name: Linting
     steps:
       - uses: actions/checkout@master

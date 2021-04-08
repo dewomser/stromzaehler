@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
+        - name: Run phplint
         - uses: michaelw90/PHP-Lint@master

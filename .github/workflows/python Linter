@@ -1,4 +1,4 @@
-name: Python Linting
+name: PythonLinting
 
 on: [push]
 

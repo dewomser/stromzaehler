@@ -1,5 +1,6 @@
 # Stromzaehler
 ============
+
 [![PHP Linting](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml)
 
 Arduino Stromzähler mit S0 Impuls mit Visualisierung

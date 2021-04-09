@@ -1,8 +1,9 @@
 # Stromzaehler
 ============
 
-[![PHP Linting](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml) | 
+[![PHP Linting](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml) 
 [![Build Arduino examples](https://github.com/dewomser/stromzaehler/actions/workflows/arduino-build.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/arduino-build.yml)
+
 [![Python Linting](https://github.com/dewomser/stromzaehler/actions/workflows/main.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/main.yml)
 Python Linting Test gescheitert /Script funktioniert aber.
 
@@ -15,7 +16,7 @@ besteht aus 3 Teilen:
 3. PHP-Script  Datenbankverwaltung und Visualisierung
 
 
-Beispiel für stromtabelle1.php PHP7 +MYSQLI
+Beispiel für stromtabelle1.php PHP7.x und MariaDB
 https://www.untergang.de/index.php/linux-blog/verbrauchstabelle-erzeugen-mit-php.html
 
 Bonus :

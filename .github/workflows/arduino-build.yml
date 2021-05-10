@@ -4,8 +4,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Build all example sketches
-      uses: Legion2/arduino-builder-action@v2.0.0
+    - uses: arduino/compile-sketches@v1
       with:
-        board: "arduino:avr:uno"
+      fqbn: 'arduino:avr:uno'
+      libraries: |
+      - name: Servo
+      
+        version: 1.1.3

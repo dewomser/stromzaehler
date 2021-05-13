@@ -38,7 +38,8 @@ byte lastState;
 // Initialize the Ethernet server library
 // with the IP address and port you want to use 
 // (port 80 is default for HTTP):
-Server server(80);
+// Server server(80);
+EthernetServer server = EthernetServer(80);
 
 void setup()
 {
@@ -84,7 +85,9 @@ void loop()
   
   
   // listen for incoming clients
-  Client client = server.available();
+  //Client client = server.available();
+  EthernetClient client = server.available();
+  
   if (client) {
     // an http request ends with a blank line
     boolean currentLineIsBlank = true;

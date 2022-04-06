@@ -1,37 +1,8 @@
-# GitHub Action for Blackfire
-name: Profiling with blackfire
-on: [push, pull_request]
+name: PHP Linting
+on: pull_request
 jobs:
-  blackfire:
-    name: Blackfire (PHP ${{ matrix.php-versions }})
-    # Add your Blackfire credentials securely using GitHub Secrets
-    env:
-      BLACKFIRE_SERVER_ID: ${{ secrets.BLACKFIRE_SERVER_ID }}
-      BLACKFIRE_SERVER_TOKEN: ${{ secrets.BLACKFIRE_SERVER_TOKEN }}
-      BLACKFIRE_CLIENT_ID: ${{ secrets.BLACKFIRE_CLIENT_ID }}
-      BLACKFIRE_CLIENT_TOKEN: ${{ secrets.BLACKFIRE_CLIENT_TOKEN }}
-    runs-on: ${{ matrix.operating-system }}
-    strategy:
-      fail-fast: false
-      matrix:
-        operating-system: [ubuntu-latest, windows-latest, macos-latest]
-        php-versions: ['7.4', '8.0', '8.1']
-        # Blackfire supports PHP >= 5.3 on Ubuntu and macOS, and PHP >= 5.4 on Windows
+  phplint:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      # Docs: https://github.com/shivammathur/setup-php
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: ${{ matrix.php-versions }}
-          # Setup Blackfire extension and CLI
-          extensions: blackfire
-          tools: blackfire
-          # Disable Xdebug and PCOV coverage drivers
-          coverage: none
-
-      # Refer to https://blackfire.io/docs/cookbooks/profiling-cli
-      - name: Profile
-        run: blackfire run php stromtabelle1.php
+        - uses: actions/checkout@v1
+        - uses: michaelw90/PHP-Lint@master

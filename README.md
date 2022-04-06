@@ -1,11 +1,6 @@
 # Stromzaehler
 ============
 
-[![PHP Linting](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/php-linter.yml) 
-[![Build Arduino examples](https://github.com/dewomser/stromzaehler/actions/workflows/arduino-build.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/arduino-build.yml)
-
-[![Python Linting](https://github.com/dewomser/stromzaehler/actions/workflows/main.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/main.yml)
-Python Linting Test gescheitert /Script funktioniert aber.
 
 Arduino Stromzähler mit S0 Impuls mit Visualisierung
 

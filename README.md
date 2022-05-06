@@ -11,7 +11,7 @@ besteht aus 3 Teilen:
 3. PHP-Script  Datenbankverwaltung und Visualisierung
 
 
-Beispiel für stromtabelle1.php PHP7.x und MariaDB
+Beispiel für stromtabelle1.php PHP8.1 und MariaDB
 https://www.untergang.de/index.php/linux-blog/verbrauchstabelle-erzeugen-mit-php.html
 
 Bonus :

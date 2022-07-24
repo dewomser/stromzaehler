@@ -1,7 +1,7 @@
 # Stromzaehler
 ============
 
-[![Compile Examples](https://github.com/dewomser/stromzaehler/actions/workflows/compile-examples.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/compile-examples.yml) 
+[![Compile Examples](https://github.com/dewomser/stromzaehler/actions/workflows/compile-examples.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/compile-examples.yml)  [![Check Arduino](https://github.com/dewomser/stromzaehler/actions/workflows/check-arduino.yml/badge.svg)](https://github.com/dewomser/stromzaehler/actions/workflows/check-arduino.yml)
 
 Arduino Stromzähler mit S0 Impuls mit Visualisierung
 
